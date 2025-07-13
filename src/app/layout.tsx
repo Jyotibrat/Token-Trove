@@ -10,6 +10,11 @@ import { ChatBot } from '@/components/chat-bot';
 export const metadata: Metadata = {
   title: 'TokenTrove',
   description: 'Create and display NFTs using Alchemy API',
+  icons: {
+    icon: '/logo.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
